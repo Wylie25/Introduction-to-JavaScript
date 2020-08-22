@@ -64,8 +64,8 @@ console.log(multiply(28)(7));
 function dogFeeder(age, weight) {
   if (age <= 1) {
     if (age <= 0.4) {
-      return weight * 0.01;
-    } else if (age <= 0.07) {
+      return weight * 0.1;
+    } else if (age <= 0.7) {
       return weight * 0.05;
     } else if (age < 1) {
       return weight * 0.04;
